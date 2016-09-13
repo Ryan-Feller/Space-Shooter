@@ -216,7 +216,7 @@ public class GameController : MonoBehaviour {
             n--;
             int k = rnd.Next(n + 1);
             shoof = aList[k];
-            aList[n] = aList[n];
+            aList[k] = aList[n];
             aList[n] = shoof; 
         }
          
